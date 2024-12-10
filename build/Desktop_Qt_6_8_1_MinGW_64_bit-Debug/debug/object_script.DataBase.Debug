@@ -1,0 +1,11 @@
+debug/addingmenu.o
+debug/main.o
+debug/mainwindow.o
+debug/nameform.o
+debug/newdatabase.o
+debug/outputtable.o
+debug/moc_addingmenu.o
+debug/moc_mainwindow.o
+debug/moc_nameform.o
+debug/moc_newdatabase.o
+debug/moc_outputtable.o

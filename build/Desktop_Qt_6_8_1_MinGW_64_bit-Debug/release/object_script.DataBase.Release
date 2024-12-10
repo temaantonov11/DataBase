@@ -1,0 +1,11 @@
+release/addingmenu.o
+release/main.o
+release/mainwindow.o
+release/nameform.o
+release/newdatabase.o
+release/outputtable.o
+release/moc_addingmenu.o
+release/moc_mainwindow.o
+release/moc_nameform.o
+release/moc_newdatabase.o
+release/moc_outputtable.o
