@@ -9,7 +9,7 @@ newDataBase::newDataBase(QWidget *parent, std::string file_name, std::string sta
     if (status == "create") {
         file.open(file_name);
     } else {
-        file.open(file_name, std::ios::app);
+        file.open(file_name, std::ios::in | std::ios::out);
     }
 
     name = file_name;
@@ -32,6 +32,23 @@ void newDataBase::on_pushButton_clicked()
 
 void newDataBase::on_outputButton_clicked()
 {
+    output_table = new outputTable(this, name);
 
+    output_table->show();
+
+}
+
+
+void newDataBase::on_changeButton_clicked()
+{
+    change_menu = new changeMenu(this, name);
+    change_menu -> show();
+}
+
+
+void newDataBase::on_findButton_clicked()
+{
+    find_menu = new findMenu(this, name);
+    find_menu -> show();
 }
 

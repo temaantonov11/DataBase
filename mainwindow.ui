@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="CreateButton">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>60</y>
-      <width>151</width>
-      <height>41</height>
+      <x>300</x>
+      <y>200</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
@@ -30,27 +30,14 @@
    <widget class="QPushButton" name="openButton">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>120</y>
-      <width>151</width>
-      <height>41</height>
+      <x>300</x>
+      <y>280</y>
+      <width>171</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
      <string>Open DataBase</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>180</y>
-      <width>151</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Delete DataBase</string>
     </property>
    </widget>
   </widget>

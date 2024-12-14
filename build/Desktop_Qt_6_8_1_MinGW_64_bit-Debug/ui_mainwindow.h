@@ -25,7 +25,6 @@ public:
     QWidget *centralwidget;
     QPushButton *CreateButton;
     QPushButton *openButton;
-    QPushButton *pushButton_3;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -38,13 +37,10 @@ public:
         centralwidget->setObjectName("centralwidget");
         CreateButton = new QPushButton(centralwidget);
         CreateButton->setObjectName("CreateButton");
-        CreateButton->setGeometry(QRect(40, 60, 151, 41));
+        CreateButton->setGeometry(QRect(300, 200, 171, 61));
         openButton = new QPushButton(centralwidget);
         openButton->setObjectName("openButton");
-        openButton->setGeometry(QRect(40, 120, 151, 41));
-        pushButton_3 = new QPushButton(centralwidget);
-        pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(40, 180, 151, 41));
+        openButton->setGeometry(QRect(300, 280, 171, 61));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -64,7 +60,6 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         CreateButton->setText(QCoreApplication::translate("MainWindow", "Create DataBase", nullptr));
         openButton->setText(QCoreApplication::translate("MainWindow", "Open DataBase", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Delete DataBase", nullptr));
     } // retranslateUi
 
 };

@@ -4,6 +4,9 @@
 #include <QDialog>
 #include <fstream>
 #include <string>
+#include <shared_map.h>
+#include <QMessageBox>
+#include <shared_vector.h>
 
 namespace Ui {
 class addingMenu;
@@ -23,6 +26,7 @@ private slots:
 private:
     Ui::addingMenu *ui;
     std::ofstream file;
+    std::string _file_name;
 };
 
 #endif // ADDINGMENU_H

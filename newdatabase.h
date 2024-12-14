@@ -5,6 +5,9 @@
 #include <fstream>
 #include <addingmenu.h>
 #include <string>
+#include <outputtable.h>
+#include <changemenu.h>
+#include <findmenu.h>
 
 namespace Ui {
 class newDataBase;
@@ -23,11 +26,18 @@ private slots:
 
     void on_outputButton_clicked();
 
+    void on_changeButton_clicked();
+
+    void on_findButton_clicked();
+
 private:
     Ui::newDataBase *ui;
     std::ofstream file;
     addingMenu *addMenu;
+    outputTable *output_table;
     std::string name;
+    changeMenu *change_menu;
+    findMenu *find_menu;
 
 };
 

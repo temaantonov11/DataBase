@@ -10,21 +10,34 @@ CONFIG += c++17
 
 SOURCES += \
     addingmenu.cpp \
+    changemenu.cpp \
+    findmenu.cpp \
+    findtable.cpp \
     main.cpp \
     mainwindow.cpp \
     nameform.cpp \
     newdatabase.cpp \
-    outputtable.cpp
+    outputtable.cpp \
+    shared_map.cpp \
+    shared_vector.cpp
 
 HEADERS += \
     addingmenu.h \
+    changemenu.h \
+    findmenu.h \
+    findtable.h \
     mainwindow.h \
     nameform.h \
     newdatabase.h \
-    outputtable.h
+    outputtable.h \
+    shared_map.h \
+    shared_vector.h
 
 FORMS += \
     addingmenu.ui \
+    changemenu.ui \
+    findmenu.ui \
+    findtable.ui \
     mainwindow.ui \
     nameform.ui \
     newdatabase.ui \

@@ -26,7 +26,7 @@
     <string>add record</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="findButton">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -36,10 +36,10 @@
     </rect>
    </property>
    <property name="text">
-    <string>delete record</string>
+    <string>find record</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="changeButton">
    <property name="geometry">
     <rect>
      <x>260</x>

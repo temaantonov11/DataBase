@@ -20,8 +20,8 @@ class Ui_newDataBase
 {
 public:
     QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *findButton;
+    QPushButton *changeButton;
     QPushButton *pushButton_4;
     QPushButton *outputButton;
 
@@ -33,12 +33,12 @@ public:
         pushButton = new QPushButton(newDataBase);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(260, 130, 131, 41));
-        pushButton_2 = new QPushButton(newDataBase);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(260, 190, 131, 41));
-        pushButton_3 = new QPushButton(newDataBase);
-        pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(260, 250, 131, 41));
+        findButton = new QPushButton(newDataBase);
+        findButton->setObjectName("findButton");
+        findButton->setGeometry(QRect(260, 190, 131, 41));
+        changeButton = new QPushButton(newDataBase);
+        changeButton->setObjectName("changeButton");
+        changeButton->setGeometry(QRect(260, 250, 131, 41));
         pushButton_4 = new QPushButton(newDataBase);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(260, 310, 131, 41));
@@ -55,8 +55,8 @@ public:
     {
         newDataBase->setWindowTitle(QCoreApplication::translate("newDataBase", "Dialog", nullptr));
         pushButton->setText(QCoreApplication::translate("newDataBase", "add record", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("newDataBase", "delete record", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("newDataBase", "change record", nullptr));
+        findButton->setText(QCoreApplication::translate("newDataBase", "find record", nullptr));
+        changeButton->setText(QCoreApplication::translate("newDataBase", "change record", nullptr));
         pushButton_4->setText(QCoreApplication::translate("newDataBase", "backup", nullptr));
         outputButton->setText(QCoreApplication::translate("newDataBase", "outout data", nullptr));
     } // retranslateUi
